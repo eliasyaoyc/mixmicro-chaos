@@ -1,0 +1,9 @@
+xyz.vopen.framework.chaos.core.processor.chain.impl.HeartbeatHandler
+xyz.vopen.framework.chaos.core.processor.chain.impl.ExitResHandler
+xyz.vopen.framework.chaos.core.processor.chain.impl.StartedResHandler
+xyz.vopen.framework.chaos.core.processor.chain.impl.InitializationResHandler
+xyz.vopen.framework.chaos.core.processor.chain.impl.ConfirmHandler
+xyz.vopen.framework.chaos.core.processor.chain.impl.SyncHandler
+xyz.vopen.framework.chaos.core.processor.chain.impl.OnlineHandler
+xyz.vopen.framework.chaos.core.processor.chain.impl.OfflineHandler
+xyz.vopen.framework.chaos.core.processor.chain.impl.OminousHandler

@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: chaos-bootstrap
+logging:
+  level:
+    root: info
+
+mixmicro:
+  chaos:
+    enabled: true
+    services: "10.10.10.176:8887,10.10.10.176:8888" # coordinator 集群节点 使用,分隔.
+    readBufferSize: 512 #消息体缓存大小,字节
+    writeBufferSize: 512 #内存块大小限制
+    writeBufferCapacity: 512 #Write缓存区容量
+    backlog: 1000 #服务端backlog
+    threadNum: 2 #线程数
+    serializerType: json # 序列化方式.
+    maxInFlightRequestsPerConnection: 1000 #预存请求最大值.
+    requestTimeout: 10000  #请求超时时间 ms. 建议10秒左右 不然会请求超时 没有效果
+    heartbeatInterval: 5000
+
+
